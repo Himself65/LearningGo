@@ -34,6 +34,25 @@ func loop() {
 	}
 }
 
-func main() {
-	varSometing()
+func swap(a int, b int) (int, int) {
+	// i'm a genius
+	return b, a
 }
+
+type Member struct {
+	name      string
+	age       int
+	behaviour func(a int, b int) string
+}
+
+func MemberAction() {
+	member := Member{
+		"himself65",
+		18,
+		func(a int, b int) string {
+			return ""
+		}}
+	member.age = 3
+}
+
+func main() {}
