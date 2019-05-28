@@ -4,7 +4,7 @@
 
 ---
 
-Fucking Go haven't `express ? contidion1 : contidion2` 🐴
+Fucking Go haven't `expression ? condition1 : condition2` 🐴
 
 ## LICENSE
 
